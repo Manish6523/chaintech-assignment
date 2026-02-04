@@ -1,0 +1,37 @@
+/* Bootstrap is imported in main.jsx */
+/* Custom styles for the application */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Custom container for centered content */
+.container-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+/* Custom card styling */
+.card-custom {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+}
+
+/* Ensure full width for row in container-custom */
+.container-custom .row {
+  width: 100%;
+  margin: 0;
+}
